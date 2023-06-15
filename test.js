@@ -12,6 +12,7 @@ const testBranchNames = [
   "revert-task-bbt-1234",
   "feat/bbt-1234",
   "fix/bbt-1234",
+  "release/12.200.100",
 ];
 
 console.log(`

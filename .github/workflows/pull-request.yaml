@@ -21,7 +21,7 @@ jobs:
       - uses: deepakputhraya/action-branch-name@master
         with:
           regex: '(([a-z])\/((bbt-\d+)|(\d+\.\d+\.\d+))|(revert.+))' # Regex the branch should match. This example enforces grouping
-          allowed_prefixes: 'feat,fix,chore,task,bugfix,patch,hotfix' # All branches should start with the given prefix
+          allowed_prefixes: 'feat,fix,chore,task,bugfix,patch,hotfix,release' # All branches should start with the given prefix
           ignore: master,develop # Ignore exactly matching branch names from convention
           min_length: 5 # Min length of the branch name
           max_length: 20 # Max length of the branch name
