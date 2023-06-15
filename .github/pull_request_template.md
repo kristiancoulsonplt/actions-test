@@ -9,7 +9,7 @@ the solution that is being put in place --->
 
 ## Checklist
 
-- [ ] I have read and followed the [CONTRIBUTING](https://github.com/prettylittlething/Web-Application/blob/develop/CONTRIBUTING.md) rules
+- [ ] I have read and followed the [CONTRIBUTING](https://github.com/kristiancoulsonplt/actions-test/blob/main/CONTRIBUTING.md) rules
 - [ ] I have performed a self-review of my code before asking for a review. The code is cleaned up, logs removed etc.
 - [ ] I have double checked that any components match appropriate designs, all Acceptance Criterea's are met and have checked that for anything missing from the ticket.
 - [ ] I have updated or added unit tests related to these changes.
