@@ -4,11 +4,11 @@
 // revert-task-bbt-1234
 // feat/bbt-1234
 
-const regex = /(([a-z])\/((bbt-\d+)|(\d\.\d\.\d))|(revert.+))/;
+const regex = /(([a-z])\/((bbt-\d+)|(\d+\.\d+\.\d+))|(revert.+))/;
 
 const testBranchNames = [
   "task/bbt-1234",
-  "release/1.0.0",
+  "release/12.1.1",
   "revert-task-bbt-1234",
   "feat/bbt-1234",
   "fix/bbt-1234",
