@@ -27,9 +27,7 @@ jobs:
           max_length: 30 # Max length of the branch name
   task-list-checker:
     runs-on: ubuntu-latest
-    if: ${{ github.event.pull_request.user.login != 'dependabot[bot]' }}
     steps:
-      - name: Check for incomplete task list items
-        uses: Shopify/task-list-checker@main
+      - uses: kentaro-m/task-completed-checker-action@v0.1.2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
